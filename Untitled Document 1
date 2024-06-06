@@ -1,0 +1,107 @@
+db.office.insertMary([
+    _id:123,
+    name: "waning",
+... head: "juanita",
+... members:[{name:"atan bro",position:"tig limpyo"},{name:"Meward",position:"tig kaon"}]}]) please make 10 example od this
+
+
+db.office.insertMary([
+  {_id:123,
+    name: "waning",
+... head: "juanita",
+... members:[{name:"atan bro",position:"tig limpyo"},{name:"Meward",position:"tig kaon"}]}]) please make 10 example od this
+
+
+db.office.insertMany([
+  {
+    _id: 123,
+    name: "Waning",
+    head: "Juanita",
+    members: [
+      { name: "Atan Bro", position: "Tig Limpyo" },
+      { name: "Meward", position: "Tig Kaon" }
+    ]
+  },
+  {
+    _id: 124,
+    name: "John",
+    head: "Mary",
+    members: [
+      { name: "Alice", position: "Manager" },
+      { name: "Bob", position: "Employee" }
+    ]
+  },
+  {
+    _id: 125,
+    name: "Lisa",
+    head: "Mike",
+    members: [
+      { name: "Sara", position: "Team Lead" },
+      { name: "Tom", position: "Developer" }
+    ]
+  },
+  {
+    _id: 126,
+    name: "Richard",
+    head: "Sarah",
+    members: [
+      { name: "James", position: "Designer" },
+      { name: "Laura", position: "Tester" }
+    ]
+  },
+  {
+    _id: 127,
+    name: "Daniel",
+    head: "Emily",
+    members: [
+      { name: "Oliver", position: "Analyst" },
+      { name: "Sophia", position: "Consultant" }
+    ]
+  },
+  {
+    _id: 128,
+    name: "Michael",
+    head: "Emma",
+    members: [
+      { name: "Matthew", position: "Engineer" },
+      { name: "Olivia", position: "Coordinator" }
+    ]
+  },
+  {
+    _id: 129,
+    name: "William",
+    head: "Ava",
+    members: [
+      { name: "Ethan", position: "Supervisor" },
+      { name: "Isabella", position: "Specialist" }
+    ]
+  },
+  {
+    _id: 130,
+    name: "Oliver",
+    head: "Sophia",
+    members: [
+      { name: "Liam", position: "Director" },
+      { name: "Chloe", position: "Assistant" }
+    ]
+  },
+  {
+    _id: 131,
+    name: "Elijah",
+    head: "Mia",
+    members: [
+      { name: "Noah", position: "Coordinator" },
+      { name: "Aria", position: "Manager" }
+    ]
+  },
+  {
+    _id: 132,
+    name: "Alexander",
+    head: "Scarlett",
+    members: [
+      { name: "Logan", position: "Developer" },
+      { name: "Madison", position: "Designer" }
+    ]
+  }
+]);
+
